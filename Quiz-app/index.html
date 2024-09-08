@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="./css/stylee.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="quiz-container">
+            <div class="question">
+                <div class="question-number">Question 1 :</div>
+                <div class="question-text" id="questionText">Who killed Ali Bey Al-Kabir?</div>
+            </div>
+            <div class="options-container">
+                <button class="option">Mohammed Salah</button>
+                <button class="option">Wallahy ma ana ya ostaz</button>
+                <button class="option">Saad Zagloul</button>
+                <button class="option">Dina Nour</button>
+            </div>
+            <div class="Buttons-container">
+                <button class="prev-button">Previous</button>
+                <button class="flag-button">&#9873;</button>
+                <button class="next-button">Next</button>
+            </div>
+            <div class="progress-container">
+                <div class="progress-circle"></div>
+                <div class="progress-circle"></div>
+                <div class="progress-circle"></div>
+                <div class="progress-circle"></div>
+                <div class="progress-circle"></div>
+                <div class="progress-circle"></div>
+                <div class="progress-circle"></div>
+                <div class="progress-circle"></div>
+                <div class="progress-circle"></div>
+                <div class="progress-circle"></div>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <aside>
+            <img src="./css/img/cypherpunk-512.webp" alt="User Photo" class="user-photo">
+            <div class="username">Sara Elbably</div>
+            <div class="timer">00:00</div>
+            <div class="flagsQ">
+                <ul class="flagged-questions-list"></ul>
+            </div>
+        </aside>
+    </div>
+    <script type="module" src="./script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const userName = localStorage.getItem('userName');
+            const userNameElement = document.querySelector('.username');
+            if (userNameElement && userName) {
+                userNameElement.textContent = userName;
+            }
+        });
+    </script>
+</body>
+
+</html>

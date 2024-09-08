@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f6f5f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: -8px 0 50px;
+
+
+}
+
+h1{
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 9px;
+
+}
+
+
+p{
+  font-size: 18px;
+  font-weight: 100;
+  margin: 20px 0 30px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+}
+ .container{
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0,0.22);
+  position: relative;
+  overflow: hidden;
+  width: 650px;
+  max-width: 100%;
+  min-height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+
+
+ }
+ .left{
+  width: 50%;
+  height: 100%;
+
+
+ }
+ 
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+ .form form{
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+  height: 100%;
+  justify-content:center;
+  align-items: center;
+  text-align: center; 
+ }
+ 
+
+ .form input{
+  background: #eee;
+  border: none;
+  padding: 12px 15px;
+  border-radius: 5px;
+  margin: 3px 0;
+
+ }
+
+
+
+
+ button{
+  border-radius: 20px;
+  border: 1px solid #3c80ed;
+  background: #3c80ed;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+  cursor: pointer;
+  margin-top: 8px;
+  
+ }
+
+button:active{
+  transform: scale(0.95);
+} 
+
+button:focus{
+  outline: none;
+
+}
+
+
+.signup-form{
+  width: 130%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.right {
+  flex: 1;
+  background-color: #ffffff;
+  width: 50%;
+  height: 100%;
+}
+
+
+
+.welcome-container{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+
+
+}
+.welcome-container h2, .welcome-container p {
+  margin: 0;
+  text-align: center;
+  
+}
+.welcome-container p{
+  font-weight: 150;
+}
+
+
+img{
+  width: 100%;
+  height: 90%;
+}
+
+.input-control{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  
+ }
+ 
+
+ .input-control input:focus {
+  outline: 0;
+}
+
+.input-control.success input {
+  border: 2px solid #09c372;  
+}
+
+.input-control.error input {
+  border: 2px solid #ff3860;  
+}
+
+.input-control .error {
+  color: #ff3860;
+  font-size: 12px; 
+  height: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+

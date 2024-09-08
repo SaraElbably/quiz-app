@@ -1,0 +1,189 @@
+{
+    "quiz": {
+      "title": "JavaScript Quiz",
+      "description": "Test your JavaScript knowledge with these questions ranging from basic to advanced.",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Inside which HTML element do we put the JavaScript?",
+          "answer_1": "<javascript>",
+          "answer_2": "<scripting>",
+          "answer_3": "<js>",
+          "answer_4": "<script>",
+          "correct_answer": "<script>"
+        },
+        {
+          "id": 2,
+          "title": "What is the correct syntax for referring to an external script called 'script.js'?",
+          "answer_1": "<script href='script.js'>",
+          "answer_2": "<script name='script.js'>",
+          "answer_3": "<script src='script.js'>",
+          "answer_4": "<script file='script.js'>",
+          "correct_answer": "<script src='script.js'>"
+        },
+        {
+          "id": 3,
+          "title": "How do you write 'Hello World' in an alert box?",
+          "answer_1": "alertBox('Hello World');",
+          "answer_2": "msg('Hello World');",
+          "answer_3": "alert('Hello World');",
+          "answer_4": "msgBox('Hello World');",
+          "correct_answer": "alert('Hello World');"
+        },
+        {
+          "id": 4,
+          "title": "How do you create a function in JavaScript?",
+          "answer_1": "function = myFunction()",
+          "answer_2": "function:myFunction()",
+          "answer_3": "function myFunction()",
+          "answer_4": "createFunction myFunction()",
+          "correct_answer": "function myFunction()"
+        },
+        {
+          "id": 5,
+          "title": "How do you call a function named 'myFunction'?",
+          "answer_1": "call function myFunction()",
+          "answer_2": "myFunction()",
+          "answer_3": "call myFunction()",
+          "answer_4": "execute myFunction()",
+          "correct_answer": "myFunction()"
+        },
+        {
+          "id": 6,
+          "title": "How to write an IF statement in JavaScript?",
+          "answer_1": "if i == 5 then",
+          "answer_2": "if (i == 5)",
+          "answer_3": "if i = 5",
+          "answer_4": "if i equals 5",
+          "correct_answer": "if (i == 5)"
+        },
+        {
+          "id": 7,
+          "title": "How can you add a comment in JavaScript?",
+          "answer_1": "//This is a comment",
+          "answer_2": "<!--This is a comment-->",
+          "answer_3": "'This is a comment",
+          "answer_4": "# This is a comment",
+          "correct_answer": "//This is a comment"
+        },
+        {
+          "id": 8,
+          "title": "Which event occurs when the user clicks on an HTML element?",
+          "answer_1": "onchange",
+          "answer_2": "onmouseover",
+          "answer_3": "onmouseclick",
+          "answer_4": "onclick",
+          "correct_answer": "onclick"
+        },
+        {
+          "id": 9,
+          "title": "How do you declare a JavaScript variable?",
+          "answer_1": "v carName;",
+          "answer_2": "var carName;",
+          "answer_3": "variable carName;",
+          "answer_4": "declare carName;",
+          "correct_answer": "var carName;"
+        },
+        {
+          "id": 10,
+          "title": "Which operator is used to assign a value to a variable?",
+          "answer_1": "*",
+          "answer_2": "x",
+          "answer_3": "=",
+          "answer_4": "-",
+          "correct_answer": "="
+        },
+        {
+          "id": 11,
+          "title": "What will be the output of `console.log([] + []);` in JavaScript?",
+          "answer_1": "[]",
+          "answer_2": "NaN",
+          "answer_3": "'' (empty string)",
+          "answer_4": "undefined",
+          "correct_answer": "'' (empty string)"
+        },
+        {
+          "id": 12,
+          "title": "Which of the following is NOT a primitive data type in JavaScript?",
+          "answer_1": "String",
+          "answer_2": "Boolean",
+          "answer_3": "Symbol",
+          "answer_4": "Object",
+          "correct_answer": "Object"
+        },
+        {
+          "id": 13,
+          "title": "What will be the output of `console.log(0.1 + 0.2 === 0.3);`?",
+          "answer_1": "true",
+          "answer_2": "false",
+          "answer_3": "undefined",
+          "answer_4": "NaN",
+          "correct_answer": "false"
+        },
+        {
+          "id": 14,
+          "title": "Which method can be used to convert an object to a JSON string?",
+          "answer_1": "JSON.parse()",
+          "answer_2": "JSON.stringify()",
+          "answer_3": "JSON.toString()",
+          "answer_4": "JSON.convert()",
+          "correct_answer": "JSON.stringify()"
+        },
+        {
+          "id": 15,
+          "title": "What is the result of `typeof NaN`?",
+          "answer_1": "number",
+          "answer_2": "NaN",
+          "answer_3": "undefined",
+          "answer_4": "object",
+          "correct_answer": "number"
+        },
+        {
+          "id": 16,
+          "title": "How do you check if a variable `a` is not equal to `null` and not `undefined` in JavaScript?",
+          "answer_1": "if (a != null && a != undefined)",
+          "answer_2": "if (a !== undefined && a !== null)",
+          "answer_3": "if (typeof a !== 'null' && typeof a !== 'undefined')",
+          "answer_4": "if (a)",
+          "correct_answer": "if (a !== undefined && a !== null)"
+        },
+        {
+          "id": 17,
+          "title": "What will be the output of `console.log(1 + '1');`?",
+          "answer_1": "2",
+          "answer_2": "'11'",
+          "answer_3": "NaN",
+          "answer_4": "SyntaxError",
+          "correct_answer": "'11'"
+        },
+        {
+          "id": 18,
+          "title": "Which of the following is a way to create an immediately invoked function expression (IIFE) in JavaScript?",
+          "answer_1": "(function() { /* code */ })();",
+          "answer_2": "function() { /* code */ }();",
+          "answer_3": "(function { /* code */ })();",
+          "answer_4": "(function[] { /* code */ })();",
+          "correct_answer": "(function() { /* code */ })();"
+        },
+        {
+          "id": 19,
+          "title": "What will be the output of `console.log([] == ![]);`?",
+          "answer_1": "true",
+          "answer_2": "false",
+          "answer_3": "undefined",
+          "answer_4": "SyntaxError",
+          "correct_answer": "true"
+        },
+        {
+          "id": 20,
+          "title": "Which of the following methods can be used to shallow copy an array in JavaScript?",
+          "answer_1": "Array.copy()",
+          "answer_2": "Array.clone()",
+          "answer_3": "Array.prototype.slice()",
+          "answer_4": "Array.prototype.copyWithin()",
+          "correct_answer": "Array.prototype.slice()"
+        }
+      ]
+    }
+  }
+  
